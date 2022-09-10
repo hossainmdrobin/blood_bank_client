@@ -1,0 +1,42 @@
+.NavDropdown{
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right: 0;
+    backdrop-filter: blur(10px);
+    transition: all 1s ease-in-out;
+    z-index: 100;
+}
+.hide{
+    transform: translateX(300px);
+    transition: all 1s ease-in-out;
+}
+.container{
+    margin-top: 80px;
+    font-size: 18px;
+}
+.container>ul>li>a{
+    display: block;
+    color:rgb(114, 248, 96);
+    font-size: 18px;
+    margin-top:20px;
+    padding: 10px 40px;
+}
+.container>ul>li>span{
+    height: 5px;
+    display: block;
+}
+.container>ul>li:hover>span{
+    height: 5px;
+    display: block;
+    background: #4bd5ff;
+}
+.icon{
+    display: inline;
+    color:#4bd5ff;
+    font-size: 48px;
+    margin-left:20px;
+    cursor: pointer;
+}
